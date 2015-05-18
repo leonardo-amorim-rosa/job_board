@@ -29,11 +29,4 @@ ActiveRecord::Schema.define(:version => 20150513174715) do
     t.boolean  "premium"
   end
 
-  create_table "names", :force => true do |t|
-    t.text     "body"
-    t.integer  "job_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
 end
